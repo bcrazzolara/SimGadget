@@ -58,7 +58,7 @@ To run the code, the following command can be executed.
 
 `./N-GenIC parameterfiles/lsf_32.param`
 
-This will generate $32 x 32 x 32$ particles. It runs the parameterfile that is stored in the `parameterfiles` folder and will save the generates data in the folder `./ICs/`. By default two initial condition files will be generated; The binary file `lsf_32` which is compatible with GADGET and `lsf_32.csv` which is a readable .csv file containing the particle positions and velocities compatible with the IPPL code. 
+This will generate $32^3$ particles. It runs the parameterfile that is stored in the `parameterfiles` folder and will save the generates data in the folder `./ICs/`. By default two initial condition files will be generated; The binary file `lsf_32` which is compatible with GADGET and `lsf_32.csv` which is a readable .csv file containing the particle positions and velocities compatible with the IPPL code. 
 
 The initial conditions can also be generated in parallel with the command:
 
